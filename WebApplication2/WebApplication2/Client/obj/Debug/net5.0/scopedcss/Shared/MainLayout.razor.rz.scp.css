@@ -1,0 +1,152 @@
+*[b-s87agwd6p4] {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html[b-s87agwd6p4], body[b-s87agwd6p4] {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+}
+
+[b-s87agwd6p4]::selection {
+    background: #ff80bf;
+}
+
+.container[b-s87agwd6p4] {
+    background: #fff;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+    .container form .title[b-s87agwd6p4] {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+        position: relative;
+    }
+
+        .container form .title[b-s87agwd6p4]:before {
+            content: '';
+            position: absolute;
+            height: 4px;
+            width: 33px;
+            left: 0px;
+            bottom: 3px;
+            border-radius: 5px;
+            background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+        }
+
+    .container form .input-box[b-s87agwd6p4] {
+        width: 100%;
+        height: 45px;
+        margin-top: 25px;
+        position: relative;
+    }
+
+        .container form .input-box input[b-s87agwd6p4] {
+            width: 100%;
+            height: 100%;
+            outline: none;
+            font-size: 16px;
+            border: none;
+        }
+
+    .container form .underline[b-s87agwd6p4]::before {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: #ccc;
+        left: 0;
+        bottom: 0;
+    }
+
+    .container form .underline[b-s87agwd6p4]::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+        left: 0;
+        bottom: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all 0.3s ease;
+    }
+
+    .container form .input-box input:focus ~ .underline[b-s87agwd6p4]::after,
+    .container form .input-box input:valid ~ .underline[b-s87agwd6p4]::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    .container form .button[b-s87agwd6p4] {
+        margin: 40px 0 20px 0;
+    }
+
+    .container .input-box input[type="submit"][b-s87agwd6p4] {
+        background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+        font-size: 17px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .container .input-box input[type="submit"]:hover[b-s87agwd6p4] {
+            letter-spacing: 1px;
+            background: linear-gradient(to left, #99004d 0%, #ff0080 100%);
+        }
+
+    .container .option[b-s87agwd6p4] {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container .facebook a[b-s87agwd6p4],
+    .container .google a[b-s87agwd6p4] {
+        display: block;
+        height: 45px;
+        width: 100%;
+        font-size: 15px;
+        text-decoration: none;
+        padding-left: 20px;
+        line-height: 45px;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .container .facebook i[b-s87agwd6p4],
+    .container .google i[b-s87agwd6p4] {
+        padding-right: 12px;
+        font-size: 20px;
+    }
+
+    .container .google a[b-s87agwd6p4] {
+        background: linear-gradient(to right, #eeee00 0%, #1abeff 100%);
+        margin: 20px 0 15px 0;
+    }
+
+        .container .google a:hover[b-s87agwd6p4] {
+            background: linear-gradient(to left, #eeee00 0%, #1abeff 100%);
+            margin: 20px 0 15px 0;
+        }
+
+    .container .facebook a[b-s87agwd6p4] {
+        background: linear-gradient( to right, #3b5998 0%, #476bb8 100%);
+        margin: 20px 0 50px 0;
+    }
+
+        .container .facebook a:hover[b-s87agwd6p4] {
+            background: linear-gradient( to left, #3b5998 0%, #476bb8 100%);
+            margin: 20px 0 50px 0;
+        }
